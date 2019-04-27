@@ -1,0 +1,16 @@
+<mvc:View xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="me.wirries.coffeemonitor.coffeeui5.controller.Config">
+	<Page title="{i18n>config}">
+		<content>
+			<VBox>
+				<Text
+					text="Lorem ipsum dolor st amet magna aliquyam erat, sed diam voluptuaum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet."/>
+			</VBox>
+		</content>
+		<headerContent>
+			<Button tooltip="{i18n>showDashboard}" icon="sap-icon://bbyd-dashboard" press="onNavigateToDashboard"/>
+			<Button tooltip="{i18n>showHistory}" icon="sap-icon://area-chart" press="onNavigateToHistory"/>
+			<Button icon="sap-icon://edit" tooltip="{i18n>showConfig}" press="onNavigateToConfig"/>
+		</headerContent>
+	</Page>
+</mvc:View>

@@ -1,0 +1,44 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/api",
+      "target": {
+        "type": "destination",
+        "name": "CoffeeMonitor"
+      },
+      "description": "Backend for the CoffeeMonitor"
+    }
+  ],
+  "securityConstraints": [
+    {
+      "permission": "coffeemonitor",
+      "description": "access to the application",
+      "protectedPaths": [
+        "/"
+      ],
+      "excludedPaths": [
+        "/logout"
+      ]
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}
