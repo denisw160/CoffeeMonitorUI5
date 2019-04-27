@@ -54,3 +54,7 @@ mock_preview_sapui5.html
 sap-ui-cachebuster-info.json
 UIAdaptation_index.html
 visual_ext_index.html
+
+AppVariantPreviewPayload.zip
+mergedManifestDescriptor.json
+/mta_archives/
