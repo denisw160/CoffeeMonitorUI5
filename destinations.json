@@ -1,17 +1,17 @@
 {
-    "server": {
-      "port": "8000",
-      "hostname": "localhost",
-      "open": true
-    },
-    "service": {
-      "sapui5": {
-        "useSAPUI5": true
-      }
-    },   
-    "destinations": {
-      "CoffeeMonitor": {
-        "url": "http://localhost:8080/api" 
-      }
-    }
-  }
+	"server": {
+		"port": "8000",
+		"hostname": "localhost",
+		"open": true
+	},
+	"service": {
+		"sapui5": {
+			"useSAPUI5": true
+		}
+	},
+	"destinations": {
+		"CoffeeMonitor": {
+			"url": "http://localhost:8080/api"
+		}
+	}
+}
